@@ -1,3 +1,13 @@
 .users {
-  background-color: blue;
+  .info {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 20px;
+
+    button {
+      padding: 10px;
+      cursor: pointer;
+    }
+  }
 }
